@@ -1,15 +1,11 @@
 class Ciclista:
     def __init__(self):
-        self.__id = None
         self.__nombre = None
         self.__edad = None
         self.__pais = None
         self.__equipo = None
         self.__tiempo = None
-
-    @property
-    def id(self):
-        return (self.__id)
+    
     @property
     def nombre(self):
         return (self.__nombre)
@@ -26,9 +22,6 @@ class Ciclista:
     def tiempo(self):
         return (self.__tiempo)
 
-    @id.setter
-    def id(self,id):
-        self.__id=id
     @nombre.setter
     def nombre(self,nombre):
         self.__nombre=nombre
