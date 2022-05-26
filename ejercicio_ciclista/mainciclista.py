@@ -12,8 +12,7 @@ while(opcion!=0):
     print("**********")
     opcion = int(input("Digite una opción: "))
     if(opcion==1):
-        ciclista = {}
-        ciclista['id'] = input("Digita el id del ciclista: ")
+        ciclista = {}        
         ciclista['nombre'] = input("Digita el nombre del ciclista: ")
         ciclista['edad'] = int(input("Digita la edad del ciclista: "))
         ciclista['pais'] = input("Digita el pais del ciclista: ")
